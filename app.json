@@ -7,15 +7,15 @@
   "env": {
       "RCLONE_CONFIG_IN_RAW_URL": {
       "description": "Paste rclone config in RAW url (use githubgist secret)",
-      "value": "http://raw..gist../rclone.conf"
+      "value": "https://gist.githubusercontent.com/yunus-25jmi/daf38f9b2af0ba1c1cebd02bf71cf779/raw/rclone.conf"
     },
       "WEBPASSWORD": {
       "description": "downloader website password",
-      "value": "Enter your new password here"
+      "value": "2512"
     },
       "WEBUSER": {
       "description": "downloader website username (default username locked to developranaz for testing)",
-      "value": "Enter your new username here"
+      "value": "yunus"
     }
 
 
