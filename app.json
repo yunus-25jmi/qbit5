@@ -4,6 +4,22 @@
   "logo": "https://raw.githubusercontent.com/developeranaz/Jupyter-Notebook-Server-Heroku/main/logo/Jupyter_logo.svg.png",
   "keywords": ["qbit", "notebook", "heroku", "web", "herokuweb", "safe", "nopassword", "password-disabled", "no-password", "oneclickdeploy", "deploy-to-heroku", "docker"],
 
+  "env": {
+      "RCLONE_CONFIG_IN_RAW_URL": {
+      "description": "Paste rclone config in RAW url (use githubgist secret)",
+      "value": "http://raw..gist../rclone.conf"
+    },
+      "WEBPASSWORD": {
+      "description": "downloader website password",
+      "value": "Enter your new password here"
+    },
+      "WEBUSER": {
+      "description": "downloader website username (default username locked to developranaz for testing)",
+      "value": "Enter your new username here"
+    }
+
+
+  },
   "website": "",
   "repository": "",
   "stack": "container"
