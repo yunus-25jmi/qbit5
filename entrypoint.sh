@@ -12,5 +12,5 @@ cat /qBittorrent/qBittorrent.conf |sed "s|devanaz:|$(rclone listremotes |head -1
 
 while :
 do
-qbittorrent-nox --profile=/ --webui-port="$(cat /PORT)"
+qbittorrent --profile=/ --webui-port="$(cat /PORT)"
 done
